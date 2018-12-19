@@ -1,0 +1,53 @@
+/* h1,p { 
+    background: cornflowerblue; 
+    color: whitesmoke;
+}
+*{
+    background: bisque;
+}
+
+/* 아이디값을 주어서 지정하기, 각자의 고유 이름으로 갈 수 있으니까 굿 */
+/* #lunch { 
+    background: darkslateblue;
+
+} */
+
+.text-center{
+    text-align: center;
+}
+.text-red{
+    color: red;
+
+}
+.text-blue{
+    color: blue;
+}
+.text-large{
+    font-size: 200%; 
+}
+
+#dinner { 
+    color: cornflowerblue;
+
+}
+
+.container{
+    background: bisque;
+}
+
+/* 후손태그 */
+div p {
+    color: green;
+}
+/*div 안에 바로있는거 자식 해당 */
+div > p {
+    color: hotpink;
+}
+
+*{
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Thasadith', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
