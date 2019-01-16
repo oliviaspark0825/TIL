@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body {
+        height: 10000px;
+        /* 페이지 크기를 강제로 10000으로 설정 */
+    }
+    table, tr, td {
+        border: 1px solid greenyellow;
+    }
+    </style>
+</head>
+<body>
+
+    <h1 id="edu">프로그래밍 교육</h1>
+    <a href="#python">
+        <!-- 이미지를 추가하고 싶을때, alt = 는 기능을 설명해주는 글정도? -->
+        <img src="images/python-1.png" width="300px" height="300px" alt="python">
+    </a>
+    <a href="reference.html">참고사이트</a>
+    <hr>
+    <h2><a href="https://www.python.org/"target="_blank">파이썬</a></h2>
+    <h3>Number type</h3>
+    <p>파이썬에서 숫자형은 아래와 같이 있다.</p>
+    <ol>
+        <li>int</li>
+        <li>float</li>
+        <li>complex</li>
+        <li><del>str</del></li>
+    </ol>
+    <h3><b>Sequence</b></h3>
+    <p>파이썬에서 시퀀스는 아래와 같이 있다.</p>
+    <p><strong>시퀀스는 for문을 돌릴 수 있다!!!</strong></p>
+    <ol style="list-style-type: armenian">
+        <li>str</li>
+        <li>list</li>
+        <li>tuple</li>
+        <li>range</li>
+    </ol>
+    <hr>
+
+    <h2><a href="https://developer.mozilla.org/ko/">웹</a></h2>
+    <h3>기초</h3>
+    <ul style="list-style-type: lower-roman">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li id="python">파이썬</li> 
+        <!--  같은 페이지 내에서 아이디로 이동하는 것 #있는 거를 누르면 이동  -->
+    </ul>
+<section>
+    <a href="https://www.google.com/" target="_self">절대 URL</a>
+    <a href="reference.html" target="_blank">상대 URL</a>
+    <a href="#edu">교육으로 이동</a>
+    <a href="mailto:suhyunpark0825@gmail.com">메일보내기</a>
+    
+</section>
+<section>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DGzy8FE1Rhk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<section>
+    <table>
+        <!-- 한줄 테이블 만들기 -->
+        <tr>
+            <!-- 1열 -->
+            <th></th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+        </tr>
+        <tr>
+            <td>A코스</td>
+            <!-- 열이 두칸 차지할때 -->
+            <td colspan="2">짬뽕</td>
+            <td rowspan="2">초밥</td>
+        </tr>
+        <tr>
+            <td>B코스</td>
+            <td>김치찌개</td>
+            <td>삼계탕</td>
+        </tr>
+        
+        
+
+
+
+
+
+    </table>
+<br>
+    <hr>
+    <table width="500px">
+        <h1>2019 타임테이블</h1>
+        <tr>
+                <th>TIME</th>
+                <th>INDOOR</th>
+                <th colspan="2">OUTDOOR</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>소극장</td>
+                <td>잔디마당</td>
+                <td>대공연장</td>
+            </tr>
+            <tr>
+                    <td>10:00</td>
+                    <td rowspan="2">안녕하신가영</td>
+                    <td></td>
+                    <td>10CM</td>
+            </tr>
+            <tr>
+                    <td>13:00</td>
+                    <td rowspan="2">선우정아</td>
+                    <td rowspan="2">참깨와 솜사탕 </td>
+            </tr>
+            <tr>
+                    <td>15:00</td>
+                    <td></td>
+            </tr>
+            <tr>
+                    <td>17:00</td>
+                    <td>크러쉬</td>
+                    <td></td>
+                    <td>폴킴</td>
+            </tr>
+    </table><br><br>
+    <!-- form 실습 -->
+    <h2>FORM INPUT</h2>
+    <form action="https://www.google.com/search?">
+       텍스트 :   <input type="text" name="username" autofocus><br>
+       이메일 :   <input type="email" autocomplete="on"><br>
+       비밀번호 : <input type="password"><br>
+       날짜 :     <input type="date">
+       <input type="hidden" name="해커" value="이사람은 해커야">
+       <!-- 사용자가 알지 못하게 -->
+       <input type="submit" value="전송!"><br>
+
+       <!-- RADIO BUTTON -->
+       <input type="radio" name="gender" value="female" checked> 여자 <br>
+       <input type="radio" name="gender" value="male"> 남자<br>
+        <!-- checkbox -->
+        <input type="checkbox" name="option" value="1">sia<br>
+        <input type="checkbox" name="option" value="2">Queen<br>
+        <input type="checkbox" name="option" value="3">Bieber<br>
+
+        <input type="number" name="size" min="10" max="60" step="10" value="15"><br>
+
+        <select name="country">
+            <option value="korea">한국</option>
+            <option value="japan" disabled>일본</option>
+            <option value="china" selected>중국</option>
+        </select>
+    </form>
+
+</section>
+</body>
+</html>
