@@ -1,0 +1,66 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+}
+.padding-10 {
+    padding: 10px;
+}
+/* 상하좌우 똑같이 10px씩 주겠다 */
+.border-box {
+    box-sizing: border-box;
+    margin: auto;
+}
+/* 100 100 을// 기본을 안쪽 컨텐츠가 아니라 보더 박스에 주겠다 */
+/* .margin-50 {
+    margin: 50px 50px 50px 50px;
+    margin: 25px 50px 25px;
+    margin: 25px 50px;
+    /* 4개 top right  bottom left */
+    /* 3개top r l bottom */
+    /* 2개 tb rl */
+    
+.margin-50{
+    margin: 50px;
+}
+.margin-top-100{
+    margin-top: 100px;
+}
+/* 위에서 100만큼 떨어진다 */
+.margin-3{
+    margin: 10px 20px 30px;
+}
+.border {
+    border-style: dashed;
+    border-bottom-style: double;
+    border-top-style: solid;
+    border-left-style: inset;
+    border-bottom-color: aqua;
+}
+.border {
+    border: 1px black dashed;
+
+}
+/* 이렇게 한번에 다 주어도 상관 없음 */
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+
+}
+.rugby {
+    width: 200px;
+    height: 180px;
+    background-color: orange;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 160px;
+    border-bottom-left-radius: 160px;
+    opacity: 0.5;
+}
+
+.rugbyy{
+    border-radius: 10% 
+    opacity: 0.5;
+}

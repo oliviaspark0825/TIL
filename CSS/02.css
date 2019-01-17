@@ -1,0 +1,25 @@
+* {
+    color : red;
+
+}
+/* 전체셀렉터는 우선순위가 가장 마지막 */
+h1 {
+    color: blue;
+
+}
+.pink {
+    color: pink;
+}
+#green {
+    color: green;
+}
+h2 {
+    color: black;
+}
+.blue {
+    color: blue;
+    /* 코드상 가장 마지막 것이 선언됨 */
+}
+.bold {
+    font-weight: bold;
+}

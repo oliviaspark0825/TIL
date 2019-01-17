@@ -1,0 +1,52 @@
+/* 부모 - 상대위치로 position 설정 */
+.square{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+}
+/* 과거에 포지션이 아무것도 없었던 상태를 기준으로 해서 움직이기 */
+
+.relative-box {
+    position: relative;
+    background-color: navy;
+    top: 10px;
+    left: 10px;
+    /* top에서 10만큼 내려간다 */
+    /* 오른쪽으로 10만큼 이동한다 */
+}
+.absolute-box {
+    position: absolute;
+    background-color: chocolate;
+    top: 30px;
+    left: 30px;
+
+/*  부모의 (relative)위치를 기준으로 이동 */
+}
+
+.fixed{
+    position: fixed;
+    background-color: coral;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+}
+.z-index-1 {
+    background-color: brown;
+    top: 300px;
+    left: 300px;
+    z-index: 4;
+}
+.z-index-2 {
+    background-color: bisque;
+    top: 350px;
+    left: 350px;
+    z-index: 5;
+}
+.z-index-3 {
+    background-color: yellowgreen;
+    top: 400px;
+    left: 400px;
+    z-index: 3;
+}
+/* 숫자가 높으면 위로 감 */
