@@ -1,0 +1,20 @@
+# 반씩 버리는 방법, 단 데이터 값은 정렬되어있어야 함
+def binarySearch(a, key):
+
+    start = 0
+    end = len(a) - 1
+    while start <= end:
+        middle = (start + end) // 2
+        if key == a[middle]: # 검색 성공
+            return middle
+        elif key < a[middle]:
+            end = middle -1
+        else:
+            start = middle + 1
+
+    return -1 # 검색 실패
+
+
+key = 23
+data = [2, 4, 7, 9, 11, 19, 23]
+print(binarySearch(data, key))
