@@ -10,7 +10,7 @@
 
 
 def selectionSort(a):
-    for i in range(0, len(a) -1):
+    for i in range(0, len(a) -1): # 0부터 n-1 까지
         min = i
         for j in range(i+1, len(a)):
             if a[min] > a[j]:
