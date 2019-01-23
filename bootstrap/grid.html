@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <style>
+        body {
+            height: 10000px;
+        }
+        .square {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- 보통 컨테이너로 묶고 시작 fluid 는 조금더 풀어서 -->
+    <div class="container">
+        <div class="row">
+                <div class="square col-1">01</div>
+                <div class="square col-1">02</div>
+                <div class="square col-1">03</div>
+        </div>
+        <div class="row">
+                <div class="square col-3">col-3</div>
+                <div class="square col-3">col-3</div>
+                <div class="square col-3">col-3</div>
+                <div class="square col-3">col-3</div>
+        </div>
+        <div class="row">
+                <div class="square col-4">col-4</div>
+                <div class="square col-8">col-8</div>
+        </div>
+        <div class="row">
+                <div class="square col-3 offset-5">col3 offset 5</div>
+                
+        </div>
+        <div class="row">
+                <div class="square col-md-3 col-6"></div>
+                <div class="square col-md-3 col-6"></div>
+                <div class="square col-md-3 col-6"></div>
+                <div class="square col-md-3 col-6"></div>
+                <!-- pixel 이 middle 이상이면 3(768px) 아니면 6 -->
+                <!-- extra small 일때 1개
+                small 일 때 2개
+                medium 일 때 3개
+                large 일 때 4개
+                xl일 때 6개 -->
+        </div>
+        <hr>
+        <div class="row">
+                <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">1</div>
+                <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">2</div>
+                <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">3</div>
+                <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">4</div>
+                <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">5</div>
+                <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">6</div>
+                <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">7</div>
+                <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">8</div>
+                <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">9</div>
+                <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">10</div>
+                <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">11</div>
+                <div class="square col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">12</div>
+                
+                
+                <!-- extra small 일때 1개
+                small 일 때 2개
+                medium 일 때 3개
+                large 일 때 4개
+                xl일 때 6개 -->
+        </div>
+    </div>
+    <!-- .row>square.col-12.col-sm-6.col-md-4.col-lg-3.col-xl-2 -->
+            
+    
+<!-- col 은 12로 나누어서 col-12 -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+</html>

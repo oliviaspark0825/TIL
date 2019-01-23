@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <style>
+        body {
+            height: 10000px;
+        }
+
+        div {
+            width: 200px;
+            height: 100px;
+            /* background-color: rgb(85, 160, 221); */
+            line-height: 100px;
+            /* 가운데 정렬을 line height로  */
+        }
+        /* z index 를 주고 높은 숫자를 주면 젤 앞으로 올라옴 */
+        .sticky {
+            width: 100px;
+            height: 30px;
+        }
+    </style>
+    <!-- reset css 를 해야지 원하는대로 움직일 수 있기 때문에  -->
+</head>
+
+<body>
+
+    <!-- alt shift 아래 -->
+    <div class="mt-3 bg-primary border border-success text-right">bg-primary</div>
+    <!-- 마진을 위에다가 16만큼 주겠다 -->
+    <div class="mt-2 p-2 bg-danger text-white border-bottom border-primary text-center font-italic">p-2</div>
+    <div class="mt-2 mx-auto bg-warning rounded-top d-none">mx-auto, 가운데정렬</div>
+    <!-- 공간을 아예 없애버림 -->
+    <div class="mt-2 mr-auto bg-info text-white rounded-pill d-inline">mr-auto, 왼쪽정렬</div>
+    <div class="mt-2 ml-auto bg-dark text-white rounded-circle ">ml-auto, 오른쪽정렬</div>
+<!-- 블럭 값자체를 없애는 것 - INLINE -->
+    <span class="d-block font-weight-bold">기본적으로는 인라인인데 , 블락으로 바꾸면 속성이 바뀜</span>
+    <div class="m-2 bg-danger d-sm-none d-md-block">보이나? 안보이나?</div>
+    <div class="m-2 bg-danger d-xl-block d-md-none">보이나용?</div>
+    <!-- 디바이스마다 작아졌을 때 보이고 안보이고 하게하기 위해서  small 기준 이상일 때 아닐 때-->
+
+    <!-- POSITION -->
+    <div class="sticky fixed-top bg-dark"></div>
+    <div class="sticky fixed-bottom bg-warning"></div>
+
+
+    <!-- alt + w 를 하면 태그 안에 태그를 만들 수 있음  -->
+    <!-- alt shift f = 코드 정리해주는 것 -->
+    <!-- alt + b 크롬 켜기 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
