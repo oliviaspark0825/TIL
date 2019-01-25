@@ -1,0 +1,63 @@
+.section {
+    height: 350px;
+    background: url("assets/movie.jpg") no-repeat center;
+    /* background-image: url(ho.jpeg);*/
+    background-size: cover;
+    text-align: center;
+    background-blend-mode: lighten;
+}
+.section:hover {
+    background-image: url("assets/screen.jpg");
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.subtitle{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+.title{
+    font-size: 30px;
+    color: rgb(228, 121, 0);
+
+}
+
+
+h2 {
+    /* line-height: 300px; */
+    line-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    color: rgb(5, 5, 29);
+    font-family: 'Gamja Flower', cursive;
+}
+
+
+h3 {
+    /* line-height: 300px; */
+    /* line-height: 250px; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  
+    color: rgb(241, 147, 6);
+
+}
+
+p{
+    font-size: 12px;
+
+}
