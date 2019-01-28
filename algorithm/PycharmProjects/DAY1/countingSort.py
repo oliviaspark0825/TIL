@@ -14,6 +14,6 @@ def CountingSort(A, B, C):
 A = [1, 4, 5, 1, 2, 4, 5, 7, 9, 3]
 B = [0] * len(A)
 C = [0] * 10
-CountingSort(A, B) # data 넘기기
+CountingSort(A, B, C) # data 넘기기
 print(B)
 
