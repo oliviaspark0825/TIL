@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Song+Myung');
+
+/* 03  */
+.card-img-top {
+    cursor: pointer;
+}
+
+/* hr 태그 귀엽게 수정 */
+.title-underline {
+    width: 70px;
+    border: 1px solid orange;
+}
+
+/* 01_layout */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+    font-family: 'Song Myung', serif;
+    height: 350px;
+    background-image: url(header.jpg);
+    background-position: 0% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-blend-mode: screen;
+}
+
+header:hover {
+    background-blend-mode: unset;
+}
+
+footer {
+    background-color: rgba(108, 117, 125, 0.8);
+    height: 50px;
+}
+
+#top-btn {
+    color: white;
+}
+
+#top-btn:hover {
+    opacity: 0.7;
+}
