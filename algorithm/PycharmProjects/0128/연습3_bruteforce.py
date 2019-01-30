@@ -2,8 +2,8 @@
 p = "is"
 t = "this is a book. this is a computer"
 
-m = len(p)
-n = len(t)
+m = len(p) j
+n = len(t) i
 
 def bruteForce(p, t):
     i = 0 # t의 인덱스

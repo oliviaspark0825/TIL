@@ -12,13 +12,11 @@ for test_case in range(1,T+1):
         min_value = 987654321
         min_index = 0
 
-
         for i in range(len(data)):   # 최댓값 최솟값
 
             if data[i] > max_value:
                 max_value = data[i]
                 max_index = i
-
 
             if data[i] < min_value:
                 min_value = data[i]
@@ -39,9 +37,6 @@ for test_case in range(1,T+1):
         if data[i] < min_value:
             min_value = data[i]
             min_index = i
-
-
-
 
     print('#{} {}'.format( test_case, max_value - min_value))
 

@@ -19,7 +19,7 @@ for test_case in range(1, T + 1):
     # for가 두번 들어가니까 n**
     # min / max 잘 구하는 것이 문제
     for i in range(N-M+1): # N 개의 정수 중에서 1~7 까지이면 i 는 1,2,3,4,5 까지이니까
-        sum = 0
+        sum = 0 # 다 더한다음에 SUM 을 0으로 셋팅하고 새로 시작
         for j in range(M): # s를 기준으로 더해야하는 정수 갯수 범위 내에서
             sum += a[i+j]
         if sum > max: max = sum
