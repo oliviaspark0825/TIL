@@ -1,0 +1,24 @@
+
+
+<body>
+<form action="/timeline/create">
+      
+  <input type="text" name="username"> <!--네이버-->
+  <input type="text" name="message">
+  <input type="submit" value="Submit">
+  <!--name이라는 이름이 붙어서 넘어감, 값은 판단 못하고, 이름표 name으로 판단함-->
+  <!--name = 네이버--> 
+  <!--딕셔너리처럼 동작하는 객체 [('name', '미세먼지')]-->
+</form>
+<!--csv 파일을 읽어와서-->
+<!--flask에서 받은 객체(딕셔너리 형태)를 받아서 반복문으로 출력-->
+
+<ul>
+    {% for v in empty %}
+    <li> {{ v[0] }}: {{ v[1] }} </li>
+    {% endfor %}
+</ul>
+
+</body>
+
+<!--{{timeline.username }} : {{timeline.message}}-->
