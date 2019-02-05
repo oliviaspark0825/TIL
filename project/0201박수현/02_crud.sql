@@ -6,4 +6,4 @@ INSERT INTO movies ('영화코드','영화이름','관람등급','감독','개�
 '장르')
 VALUES(20182530, '극한직업', '15세이상관람가', '이병헌', 20190123, 3138467, 111,'한국');
 INSERT INTO classmate (name, age, address)
-VALUES('신채원', 15, '서울');
+VALUES('박수현', 15, '서울');
