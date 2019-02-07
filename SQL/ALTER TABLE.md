@@ -1,0 +1,9 @@
+ALTER TABLE
+
+1. RENAME TABLE
+
+2. ADD new COLUMN to TABLE
+
+   ALTER TABLE friends ADD COLUMN married INTEGER;
+
+   ALTER TABLE friends RENAME TO new_table_name;
