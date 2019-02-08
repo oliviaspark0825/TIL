@@ -1,0 +1,18 @@
+{% extends "base.html"%} {% block title %}새 영화 등록{% endblock %} {% block head %} {{ super()}}
+
+<link rel="stylesheet" href="style.css" type="text/css" /> {% endblock %} {% block body%}
+<form action="/movies/create/">
+    title: <input type="text" name="title" /><br>
+    title_en: <input type="text" name="title_en" /><br>
+    audience: <input type="number" name="audience" /><br>
+    open_date: <input type="date" name="open_date" /><br>
+    genre: <input type="text" name="genre" /><br>
+    watch_grade: <input type="text" name="watch_grade" /><br>
+    score: <input type="number" name="score" /><br>
+    poster_url: <input type="text" name="poster_url" /><br>
+    description: <textarea rows="4" cols="50" name="description"></textarea>
+    <input type="submit" name="Submit" />
+</form>
+
+
+{% endblock %}

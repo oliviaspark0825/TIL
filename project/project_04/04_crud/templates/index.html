@@ -1,0 +1,16 @@
+{% extends "base.html"%}
+{% block title %}Index{% endblock %}
+
+{% block body%}
+<h1 class = "text-center">INDEX</h1>
+<a class = "contents-center", href="/movies/new/">[새 영화 등록]</a>
+
+<ul>
+    {% for movie in movies %}
+    <li><a href="/movies/{{ movie.id }}"> {{ movie.title }}</a>: {{ movie.score }}
+    
+    
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "base.html"%} {% block title %}등록 영화 조회{% endblock %} 
+{% block head %} {{ super()}}
+
+<link rel="stylesheet" href="style.css" type="text/css" /> {% endblock %}
+{% block body %}
+<form action="/movies/{{movie.id }}/update/">
+    title: <input type="text" name="title" value="{{ movie.title }}" required/>
+    title_en: <input type="text" name="title_en" value="{{ movie.title_en }}" required />
+    audience: <input type="number" name="audience" value="{{ movie.audience }}" required />
+    open_date: <input type="date" name="open_date" value="{{ movie.open_date }}" required />
+    genre: <input type="text" name="genre" value="{{ movie.genre }}" required />
+    watch_grade: <input type="text" name="watch_grade" value="{{ movie.watchgrade }}" required/>
+    score: <input type="number" name="score" value="{{ movie.score }}" required/>
+    poster_url: <input type="text" name="poster_url" value="{{ movie.poster_url }}" required />
+    description: <textarea rows="4" cols="50" name="description" required/> {{ movie.description }}</textarea>
+    <input type="submit" name="Submit" />
+</form>
+{% endblock %}
