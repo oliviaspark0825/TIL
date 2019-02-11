@@ -34,5 +34,7 @@ for x in range(len(arr)):
             if isWall(testX, testY) == False:
                 sum += calAbs(arr[y][x], arr[textY][testX])  # x, y 좌표가 축에서는 반대로 쓰니까
 
+# 다시 못돌아가게 하려면, 이미 지나온 1은 값을 바꿔야 함
+
 print("sum = {}". format(sum))
 
