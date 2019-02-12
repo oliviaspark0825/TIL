@@ -11,7 +11,9 @@ for tc in range(T):
             x -= 1
         elif data[x][y] == 1 and data[x][y-1] != 1:
 
-
+    while x !=0 and x <99:
+        for x in range(100) and y in range(100):
+        
 
 
     # for x in range(100):
