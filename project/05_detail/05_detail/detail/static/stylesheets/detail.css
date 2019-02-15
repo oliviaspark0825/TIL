@@ -1,0 +1,32 @@
+body {
+        height: 10000px;
+            font-family: 'Nanum Gothic Coding', monospace;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 20px;
+        }
+        
+header {
+        
+        height : 350px;
+        background-image: url("/static/images/back.jpg");   
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        
+    }
+.not_found {
+        height : 350px;
+        background-color: olive;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    
+    
+}
+
+.footer {
+    height: 50px;
+    background-size: cover;
+}
+
+

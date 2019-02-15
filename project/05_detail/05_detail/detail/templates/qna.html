@@ -1,0 +1,30 @@
+{% extends 'base.html' %} {% block title %}Q & A{% endblock %} {% block body %}
+<h1 class="text-center">Q & A</h1>
+<div class="container">
+    
+  <form>
+    <div class="row">
+       <div class="form-group col-lg-6">
+      <label for="exampleInputPassword1">제목</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="title">
+    </div>
+    <div class="form-group col-lg-6">
+      <label for="exampleInputEmail1">이메일</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    </div>
+   
+    <div class="form-group">
+      <label for="exampleInputEmail1">내용 </label>
+      <input type="email" class="form-control" id="contents" aria-describedby="emailHelp" placeholder="내용을 입력하세요">
+    </div>
+  
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+</div>
+
+
+
+{% endblock %}
