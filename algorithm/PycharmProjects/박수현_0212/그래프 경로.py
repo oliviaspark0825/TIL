@@ -10,6 +10,11 @@ def dfs(v):
         flag = 1
         return
 
+    #재귀는 들어가자마자  visited =1 하고 시작
+    # if s == goal :
+    #     flag = 1
+    #     return
+    # visited[s] = 1
 
     for w in range(1, V+1):
         if adj[v][w] == 1 and visited[w] == 0:
@@ -37,6 +42,7 @@ for tc in range(T):
 
     dfs(S)
     print(f'#{tc+1} {flag}')
+    # flag 대신에 visited[G]
 
 
 
