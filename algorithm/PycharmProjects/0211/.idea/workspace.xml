@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3e1a71be-edd9-4231-b6fa-199e352c93b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../박수현_0212/괄호검사.py" beforeDir="false" afterPath="$PROJECT_DIR$/../박수현_0212/괄호검사.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../박수현_0212/그래프 경로.py" beforeDir="false" afterPath="$PROJECT_DIR$/../박수현_0212/그래프 경로.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../startcamp/20190213  django 혼자 적었던거.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../startcamp/20190213  django 혼자 적었던거.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../list 1/day7_ladder1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../list 1/day7_ladder1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../박수현_0212/그래프 경로.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            <state relative-caret-position="696">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -72,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../week2/55 array.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="20" selection-start-line="20" selection-end-line="23" />
+            <state relative-caret-position="288">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -106,6 +104,7 @@
         <option value="$PROJECT_DIR$/ladder.py" />
         <option value="$PROJECT_DIR$/../박수현_0212/괄호검사.py" />
         <option value="$PROJECT_DIR$/../박수현_0212/그래프 경로.py" />
+        <option value="$PROJECT_DIR$/../../../../../0218/실습_자성체.py" />
       </list>
     </option>
   </component>
@@ -150,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ladder">
+  <component name="RunManager" selected="Python.실습_자성체">
     <configuration name="인접행렬" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,6 +163,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/인접행렬.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="실습_자성체" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../0218" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../0218/실습_자성체.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,34 +255,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="day5" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.실습_자성체" />
         <item itemvalue="Python.ladder" />
         <item itemvalue="Python.dfs" />
         <item itemvalue="Python.인접행렬" />
         <item itemvalue="Python.factorial" />
-        <item itemvalue="Python.practice" />
       </list>
     </recent_temporary>
   </component>
@@ -283,12 +282,12 @@
     <frame x="-7" y="2" width="1555" height="1045" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983521" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32502708" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32491767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../박수현_0212/그래프 경로.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        <state relative-caret-position="696">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -432,10 +431,17 @@
     <entry file="file://$PROJECT_DIR$/../박수현_0122/7.이진탐색.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../0218/실습_자성체.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../week2/55 array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="20" selection-start-line="20" selection-end-line="23" />
+        <state relative-caret-position="288">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
