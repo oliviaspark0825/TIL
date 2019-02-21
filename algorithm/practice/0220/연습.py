@@ -12,22 +12,22 @@ for i in range(len(data)):
     if data[i].isdigit():
         result.append(data[i])
         # (가 나오면 일단 괄호랑 괄호 안에 있는 연산자를stack에 넣음
-    elif data[i] == '(' or data[i] in ope:
+    elif data[i] == '(': #or data[i] in ope:
         stack.append(data[i])
         # 오른쪽 괄호를 만나면, 다음 (가 나올 때까지 stack에 있던 연산자를 다 result에 집어넣기
     elif data[i] == ')':
         # stack에서 stack의 가장 마지막이 (가 아닐때까지
-            while stack and stack[-1] != '(':
-                opes = stack.pop()
-                result.append(opes)
+        while stack and stack[-1] != '(':
+            result.append(stack.pop())
+        stack.pop()
         #괄호가 끝났으니까 stack에 남아있던 이전꺼를 result에 넣어주고, 다시 연산자와 숫자를 받기
-    else:
-        # opes_2= stack.pop()
-        # retult.append(opes_2)
+    elif data[i] in ope:
+        # 연산자 가중치가 stack 마지막 꺼보다
+        while stack[-1] != '(' and point[data[i]] < point[stack[-1]]:
+            result.append(data[i])
+        stack.append(data[i])
 
 
-
-print(opes)
 print(stack)
 print(result)
 

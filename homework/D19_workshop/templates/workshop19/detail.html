@@ -1,0 +1,13 @@
+{% extends 'workshop19/base.html' %} {% block body %}
+
+<h1>DETAIL</h1>
+<h2>{{ student.name }} 학생 정보</h2>
+<hr> 
+
+    <p>{{ student.name }}</p>
+    <p>{{ student.email }}</p>
+    <p>{{ student.birthday }}</p>
+    <p>{{ student.age }} </p>
+   <a class="badge badge-info" href="/workshop19/">[뒤로가기]
+    </a>
+{% endblock %}

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="207db831-89a8-4d0e-b7b5-d6b53141c3e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/워크샵.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/워크샵_0219.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0211/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0211/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="207db831-89a8-4d0e-b7b5-d6b53141c3e8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +50,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -67,10 +61,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../practice/0220" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

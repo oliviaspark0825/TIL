@@ -1,0 +1,46 @@
+{% extends 'workshop19/base.html' %}
+{% block body %}
+
+<h1>EDIT</h1>
+<h2>{{ student.name }} 학생 정보 수정</h2>
+<!--update가 처리해주니까 요청을거기로 보내야 함-->
+<form action='/workshop19/{{ student.pk }}/update/' method='POST'>
+    <!--post로 받으려면 csrf_token이 필요함-->
+    {% csrf_token %}
+<!--    <label for="name">NAME</label>-->
+<!--    <input type="text" name="name" id='name' value="{{student.name}}"/><br>-->
+<!--        <label for="name">NAME</label>-->
+<!--    <input type="text" name="name" id='name' value="{{student.email}}"/><br>-->
+<!--    <label for="content">CONTENT</label>-->
+<!--   <textarea name ='content' id='content'>{{ board.content }}</textarea><br>-->
+<!--    <input type="submit" value="Submit"/>-->
+<!--</form>-->
+
+<form action='/workshop19/{{ student.pk }}/update/' method='POST'>
+  <div class="form-group">
+    <label for="name">NAME</label>
+    <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" value="{{student.name}}">
+    <small id="name" class="form-text text-muted">이름이나 별명 아무거나 입력해욥</small>
+  </div><br>
+    <div class="form-group">
+    <label for="email">EMAIL</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter ur email" name="email" value="{{student.email}}">
+    <small id="email" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="birthday">BIRTHDAY</label>
+    <input type="date" class="form-control" id="birthday" placeholder="생일" name="birthday" value="{{student.birthday}}">
+  </div>
+    <div class="form-group">
+    <label for="age">AGE</label>
+    <input type="integer" class="form-control" id="age" placeholder="나이는" name = "age" value="{{student.age}}">
+  </div>
+  
+  <input type="submit" class="btn btn-primary" value="Submit"/>
+    
+</form>
+<br>
+
+<a class="badge badge-info" href="/workshop19/">[뒤로가기]
+    </a>
+{% endblock %}
