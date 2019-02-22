@@ -1,13 +1,19 @@
 .section {
     height: 350px;
-    background: url("assets/movie.jpg") repeat center;
+    /* background: url("assets/movie.jpg") no-repeat center; */
+    background-image: linear-gradient(rgba(48, 48, 48, 10%) , white 90%), url("assets/screen.jpg");
+    
+
     /* background-image: url(ho.jpeg);*/
-    /* background-size: cover; */
+    background-size: cover;
     text-align: center;
     background-blend-mode: lighten;
 }
 .section:hover {
     background-image: url("assets/screen.jpg");
+    /* 마우스오버하면 안보이게 하는게 블랜드모드 언셋 */
+    /* background-blend-mode: unset; */
+   
 }
 
 
@@ -60,4 +66,8 @@ h3 {
 p{
     font-size: 12px;
 
+}
+.card-title{
+display:flex;
+flex-wrap: nowrap;
 }

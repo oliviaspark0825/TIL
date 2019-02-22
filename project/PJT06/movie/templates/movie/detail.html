@@ -1,0 +1,35 @@
+{% extends 'movie/base.html' %}
+{% block body %}
+<h1>{{ movie.title }} 정보</h1>
+<p>{{ movie.title }}</p>
+<p>{{ movie.audience }}</p>
+<p>{{ movie.genre }}</p>
+<p>{{ movie.score }}</p>
+<p>{{ movie.poster_url }}</p>
+<p>{{ movie.description }}</p>
+<a href="/movie/">[목록]</a>
+<a href="#">[수정]</a>
+<a href="/movie/{{ movie.pk }}/delete/" onclick="return confirm('영화를 삭제하시겠습니까?')">[삭제]</a>
+
+
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="image">
+  <div class="card-body">
+    <h5 class="card-title"><a href="/movie/detail/{{ movie.pk}}/">{{ movie.title }}</a>  <span class="badge badge-success">{{ movie.score }}</span></h5>
+<hr>
+<p class="card-text">{{ movie.description }}</p>
+    <a href="#" class="btn btn-primary">배우 정보 확인하러가기</a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
+
