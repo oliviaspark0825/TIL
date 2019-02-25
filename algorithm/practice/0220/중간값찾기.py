@@ -25,5 +25,5 @@ print(maxline(a))
 
     for i in range(len(k)):
         if k[i] > k[i+1]:
-            k[i], k[i+1] = 
+            k[i], k[i+1] =
 
