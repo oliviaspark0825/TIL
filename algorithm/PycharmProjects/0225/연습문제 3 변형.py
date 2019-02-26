@@ -1,6 +1,6 @@
 def bfs(v):
     global G, V
-    visited = [0]*(V+1) # 방문표시할 방 생성
+
     queue = []
     queue.append(v) # 시작점 v 를 큐에 삽입
     visited[v] = 1
