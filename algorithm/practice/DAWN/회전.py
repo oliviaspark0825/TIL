@@ -21,6 +21,9 @@ for tc in range(1):
     for i in range(n):
         for j in range(n):
                 turn_270[i][j] = turn_180[n-j-1][i]
+
+
+
     for array in zip(turn_90, turn_180, turn_270):
         for top in array:
             print(*top, end=" ")
