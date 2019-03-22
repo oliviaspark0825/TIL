@@ -1,0 +1,50 @@
+{% extends 'movies/base.html' %}
+{% block body %}
+<h1>영화 정보 조회</h1></h1>
+<div class="container">
+    <h3>{{ movie.title }}</h3><br>
+<p>관객 수: {{ movie.audience }}</p>
+<img src="{{ movie.poster_url }}">
+<p> 상세정보 : {{ movie.description }}</p>
+<p> 장르 : {{ movie.genre.name }}</p>
+
+</div>
+<hr>
+
+
+<div class="container">
+    <form action="{% url 'movies:score_create' movie.pk %}" method='POST'>
+    {% csrf_token %}
+    한줄평: {{ form.content }}
+    평점: {{ form.score }}
+    <input type="hidden" name="movie" value="{{movie.pk}}">
+     <input type="submit" value="Comment"/>
+</form>
+<br>
+<p>관객 평점 / {{ scores | length }}개의 평점이 있습니다.</p>
+{% for score in scores %}
+{{ score.content }} | 평점: {{ score.score }}점
+<form action="{% url 'movies:score_delete' movie.pk score.pk %}" method="POST" style="display:inline" onsubmit="return confirm('R U SURE?');">
+    {% csrf_token %}
+    <input type="submit" value="삭제"/>
+</form>
+<br>
+
+<!--<a href="{% url 'movies:score_delete' movie.pk score.pk %}">[삭제]</a><br>-->
+{% endfor %}
+</div>
+<hr>
+<div class="container">
+    <a href="{% url 'movies:update' movie.pk %}">[EDIT]</a>
+<a href="{% url 'movies:index' %}">[BACK]</a>
+<form action="{% url 'movies:delete' movie.pk %}"style="display:inline" method="POST">
+   {% csrf_token %}
+    <input type="submit" value="DELETE"/>
+</form>
+</div>
+<hr>
+
+
+
+
+{% endblock %}

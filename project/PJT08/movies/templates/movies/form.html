@@ -1,0 +1,32 @@
+{% extends 'movies/base.html' %}
+{% block body %}
+{% load crispy_forms_tags %}
+{% if request.resolver_match.url_name == 'create' %}
+<h1>NEW MOVIE</h1>
+{% else %}
+<h1>EDIT MOVIE DETAIL</h1>
+{% endif %}
+
+<!--<div class="container">-->
+<!--    <form method='POST'>-->
+<!--    {# csrf_token #}-->
+<!--    {# for field in form #}-->
+<!--    {{ field.label_tag }} {{ field }}<br>-->
+<!--    {# endfor #}-->
+<!--     <input type="submit" value="Submit"/>-->
+<!--</form>-->
+<!--</div>-->
+<div class="container">
+    {% crispy form %}
+</div>
+
+
+
+
+<hr>
+{% if request.resolver_match.url_name == 'create' %}
+<a href="{% url 'movies:index' %}">[BACK: 목록으로 이동]</a>
+{% else %}
+<a href="{% url 'movies:detail' movie.pk %}">[BACK: 상세페이지로 이동]</a>
+{% endif %}
+{% endblock %}

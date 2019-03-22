@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('백만장자.txt')
 T = int(input())
-for tc in range(T):
+for tc in range(3):
     N = int(input())
     days = list(map(int,input().split()))
     stack = []
@@ -16,5 +16,10 @@ for tc in range(T):
         # 다 쌓았으면 계산을 해야지
         for s in range(len(stack)):
             total += (biggy - stack[s])
+        stack = []
+
 
     print('#{} {}'.format(tc+1, total))
+
+    biggest = max(days)
+    for i in range(N):
