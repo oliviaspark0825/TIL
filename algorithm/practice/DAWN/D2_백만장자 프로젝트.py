@@ -8,7 +8,9 @@ for tc in range(3):
     total = 0
     biggy = 0
     # 다음거보다 작거나 같으면 일단 스택에 값을 쌓기
-    for i in range(len(days)-1):
+    i=0
+    while i<len(days)-1:
+    # for i in range(len(days)-1):
         while i<N-1 and days[i] < days[i+1]:
             stack.append(days[i])
             biggy = days[i+1]
@@ -17,9 +19,9 @@ for tc in range(3):
         for s in range(len(stack)):
             total += (biggy - stack[s])
         stack = []
-
+        i+=1
 
     print('#{} {}'.format(tc+1, total))
 
-    biggest = max(days)
-    for i in range(N):
+    # biggest = max(days)
+    # for i in range(N):
