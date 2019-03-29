@@ -1,8 +1,7 @@
 def catch(x,y):
     dx = [-1,-2, 1, 2, 2, 1, -1, -2] # 오2위1 오1위2 오2아래1 오1아래2
     dy = [2, 1, 2, 1, -1, -2, -2, -1] # 왼1아래2 왼2아래1 왼2위1 왼1위2
-    # a = abs(ex-sx)
-    # b = abs(ey-sy)
+
     que = []
     que.append((x,y,0))
     arr[x][y] = 1
@@ -17,6 +16,7 @@ def catch(x,y):
             if arr[nx][ny] !=1:
                 que.append((nx,ny,time+1))
                 arr[nx][ny] =1
+    return -1
 
 
 
