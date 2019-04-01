@@ -29,8 +29,8 @@ for i in range(r2, r2+2):
 
         # type 2: 1:0개 2:2개이상
         # type 3: 1: 1개 이상
-        # if arr[i][j] == 1:
-        #     print('3')
+        if arr[i][j] == 1:
+            print('3')
 # r2, c2, w2, h2 = map(int, input().split())
 # arr = [[0 for _ in range(len1)] for _ in range(len1)]
 # for i in range(len1):
