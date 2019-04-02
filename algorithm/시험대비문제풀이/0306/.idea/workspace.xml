@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfeab1fc-52d2-43ad-b070-ce4e22d40626" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../PycharmProjects/0318/.idea/0318.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PycharmProjects/0318/.idea/0318.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PycharmProjects/0318/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PycharmProjects/0318/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PycharmProjects/0318/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_IM/.idea/code_IM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_IM/.idea/code_IM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_IM/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_IM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_IM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_IM/C8_마을위성사진.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_IM/C8_마을위성사진.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../code_IM/마을위성.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../code_IM/마을위성.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../39시험대비0227/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../39시험대비0227/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,9 +83,9 @@
     <session id="-145087053">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -98,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/도너츠합계.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -161,7 +164,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/같은모양찾기.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="594">
@@ -247,8 +250,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="455" />
-    <option name="y" value="266" />
+    <option name="x" value="465" />
+    <option name="y" value="290" />
     <option name="width" value="1400" />
     <option name="height" value="1047" />
   </component>
@@ -258,6 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,7 +273,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,7 +527,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="455" y="266" width="1400" height="1047" extended-state="0" />
+    <frame x="465" y="290" width="1400" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16299559" />
@@ -998,13 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/같은모양찾기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/과목평가_대각선_답.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1015,7 +1011,14 @@
     <entry file="file://$PROJECT_DIR$/도너츠합계.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/같은모양찾기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
         </state>
       </provider>
     </entry>
