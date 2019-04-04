@@ -11,7 +11,7 @@ def findarr(x, y):
         for j in range(c):
             L[x+i][y+j] = 0
 
-    return (r, c)
+    return r, c
 
 T = int(input())
 for tc in range(T):
@@ -26,7 +26,7 @@ for tc in range(T):
             if L[i][j]:
                 A.append(findarr(i, j))
                 cnt += 1
-
+    print(A)
     A.sort(key=lambda x: (x[0]*x[1], x[0]))    # 정렬 기준 요소 순서대로 써주기
     print(A)
     ans = []
