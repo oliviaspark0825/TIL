@@ -2,7 +2,7 @@ def find(x,y):
     dr = [0,-1, 1, 0, 0]
     dc = [0,0, 0, -1, 1]
     dno = 0
-    r, c = x
+    r, c = x, y
     check = 9
     cnt = 0
     r = r + dr[direction[dno]]
