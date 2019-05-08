@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>method vs computed</title>
+</head>
+<body>
+    <div id="app">
+        <button @click="visible = !visible">Toggle</button>
+        <ul v-if="visible">
+            <li>dateMethod: {{ dateMethod() }}</li>
+            <li>dateComputed: {{ dateComputed }}</li>
+            <!-- brower가 값을 미리 가지고 있어서 변하지 않음, 한번 사용하면 cashing해둠 -->
+
+        </ul>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script>
+            const app = new Vue({
+                el:'#app',
+                data:{
+                    visible:true,
+
+                },
+                methods: {
+                    // 차이점 : cashing ( computed)
+                    // method: 함수를 써줘야함
+                    dateMethod: function (){
+                        return new Date()
+                    }
+                },
+                computed: {
+                    dateComputed: function (){
+                        return new Date()
+                    }
+                }
+                
+            })
+        </script>
+</body>
+</html>
